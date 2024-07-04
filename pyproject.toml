@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "first-python-binace"
+version = "0.1.0"
+description = ""
+authors = ["Evan <evanz1215@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-binance = "^1.0.19"
+pandas = "^2.2.2"
+datetime = "^5.5"
+matplotlib = "^3.9.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
